@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../resource/css/style.css">
+    <title>Product card</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="card">
+            <div class="icon">
+                <div class="icon icon--left">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <div class="icon icon--right">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+            <div class="product">
+                <img src="../resource/img/Nike Zoom KD 12.png" alt="Nike Zoom KD 12">
+            </div>
+            <div class="head__title">
+                <div class="head__title card__title">
+                    <p>Nike Zoom KD 12</p>
+                </div>
+                <div class="head__title card__price">
+                    <p>99$</p>
+                </div>
+            </div>
+            <div class="product__detail">
+                <div class="product__detail__item size">
+                    <p class="product__detail__title">Size:</p>
+                    <div class="output__size" id="output__size"></div>
+                    <div class="change__size">
+                        <div class="change__size up">
+                            <i class="fa-solid fa-caret-up"></i>
+                        </div>
+                        <div class="change__size down">
+                            <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="product__detail__item color">
+                    <p class="product__detail__title">Color:</p>
+                    <div class="color__item color--red"></div>
+                    <div class="color__item  color--green"></div>
+                    <div class="color__item  color--black"></div>
+                </div>
+                <div class="product__detail__item button">
+                    <button class="button buy">Buy now</button>
+                    <button class="button add">Add cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../resource/js/script.js"></script>
+</body>
+</html>
