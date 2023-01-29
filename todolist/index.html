@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./resource/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>To do list</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <div class="header">
+                <div class="header__title">
+                    <i class="fa-solid fa-list"></i>
+                    <p>to do list</p>
+                </div>
+                <div class="space"></div>
+                <ul class="statuses" id="statuses">
+                    <li class="status choose" id="all">all</li>
+                    <li class="status" id="done">done</li>
+                    <li class="status" id="undone">undone</li>
+                </ul>
+            </div>
+            <div class="input">
+                <input class="input-content" id="input-content" type="text" placeholder="Add a new task">
+                <button class="btn-add" id="btn-add">add</button>
+            </div>
+            <ul class="items" id="items">
+                <!-- <li class="item">
+                    <p class="item__input"></p>
+                    <div class="item__icon">
+                        <i class="fa-solid fa-trash-can"></i>
+                        <i class="fa-solid fa-pen-to-square"></i>
+                    </div>
+                </li> -->
+            </ul>
+        </div>
+    </div>
+    <div id="alert">
+        <div class="alert-error">
+            <i class="fa-solid fa-triangle-exclamation"></i>
+            <p class="title">The task box cannot be empty</p>
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+    </div>
+
+    <script src="./resource/javascript/script.js"></script>
+</body>
+</html>

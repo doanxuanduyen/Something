@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 62.5%;
+}
+.wrapper{
+    background: #17A2B8;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.nav{
+    width: 35rem;
+    height: 7rem;
+    background: white;
+    color: #17A2B8;
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.result{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    border: 1rem solid white;
+    margin-bottom: 7rem;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.result p{
+    /* position: absolute;
+    top: 35%;
+    left: 37%; */
+    color: white;
+    font-size: 4rem;
+
+}
+.detail{
+    display: flex;
+}
+.detail__item{
+    margin: 2rem
+}
+.box-name{
+    width: 30rem;
+    height: 5rem;
+    background: #78C0C9;
+    border-radius: 1rem 1rem 0 0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-name p{
+    font-size: 1.7rem;
+    color: white;
+}
+.box-result{
+    width: 30rem;
+    height: 5rem;
+    background: white;
+    border-radius: 0 0 1rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-result p{
+    font-size: 1.7rem;
+}
+.hide{
+    display: none;
+}

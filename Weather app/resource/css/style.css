@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 62.5%;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+.wrapper{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1)), url('../img/hot.png') no-repeat center/cover;
+}
+.weather{
+    height: 55rem;
+    width: 35rem;
+    background: url('../img/hot.png') no-repeat center/cover;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.search{
+    margin: 2.5rem 0 1rem;
+    width: 30rem;
+    height: 5rem;
+}
+.input_search{
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    border-radius: 0 1rem 0 1rem;
+    border: none;
+    outline: none;
+    opacity: .6;
+    font-size: 1.5rem;
+    transition: 1s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.input_search:focus{
+    opacity: 1;
+    border-radius: 1rem 0 1rem 0;
+}
+.content{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.address{
+    font-size: 4rem;
+}
+.time{
+    font-size: 2rem;
+}
+.temperature{
+    margin: 2rem 0;
+    background: rgba(255, 255, 255, 0.332);
+    width: 22rem;
+    box-shadow: rgb(12, 13, 13) 0px 20px 30px -10px;
+    height: 12rem;
+    border-radius: 1rem;
+    font-size: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    text-shadow: 4px 4px rgb(0 0 0 / 50%);
+}
+.short-decs{
+    font-size: 4rem;
+    font-weight: bolder;
+    margin: 1.5rem 1rem;
+}
+.more-decs{
+    display: flex;
+    font-size: 4rem;
+    margin: 2rem 0;
+}
+.more-dec{
+    margin: 0 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.more-dec span{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
