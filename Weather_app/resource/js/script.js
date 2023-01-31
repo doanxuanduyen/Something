@@ -81,4 +81,7 @@ inputSearch.addEventListener('keypress', function (event) {
 if(inputSearch.value == ''){
     inputSearch.value = 'hanoi';
     changeWeatherUI();
+    inputSearch.addEventListener('click', function(){
+        inputSearch.value = '';
+    })
 }
